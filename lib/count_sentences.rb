@@ -34,7 +34,7 @@ end
   end 
 end 
 
-  def count_sentences("one. two. three?")
+  def count_sentences()
      if new_array =[]
       return 0  
       else
