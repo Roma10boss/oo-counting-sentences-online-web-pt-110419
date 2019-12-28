@@ -38,7 +38,7 @@ end
      if new_array =[]
       return 0  
       else
-    new_array = self.split(/[.?!]/).delete_if{|new_array| new_array.length == 0}.count
+    new_array = self.split(/[.?!]/).reject {|string| string.empty?}
     return new_array.length
    
     end 
