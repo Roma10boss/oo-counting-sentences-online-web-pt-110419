@@ -39,7 +39,7 @@ end
       return 0  
       else
     new_array = self.split(/[.?!]/).delete_if{|new_array| new_array.length == 0}.count
-    return count_sentences.length
+    return new_array.length
    
     end 
   end
